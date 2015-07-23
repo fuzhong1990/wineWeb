@@ -1,0 +1,24 @@
+#adBnner{width: 100%;/*height:400px;position: relative;*/overflow: hidden;}
+#adBnner img{width: 100%;/*height: 400px;position: absolute;left: 50%;margin-left: -850px;*/}
+
+.busRes{width: 50%;margin: 0 auto 30px;}
+.busRes .tab{text-align: center;margin: 30px auto;}
+.busRes .tab em{margin: 0 120px;font-size: 35px;color: #cccccc;}
+.busRes .inputGroup{line-height: 50px;border-bottom: 1px solid #CCCCCC;overflow: hidden;margin-bottom: 10px;}
+.busRes .inputGroup label{width: 120px;display: block;float: left;font-size: 16px;font-family: "microsoft yahei";color: #333333;text-align: right;margin-right: 20px;}
+.busRes .inputGroup input{width:41%;height:50px;*line-height: 50px;float: left;padding-left: 5px;font-size: 16px;font-family: "microsoft yahei";color: #999;outline: none;border: none;*border: none;background: none;}
+.busRes .inputGroup input.vilidate{width: 150px;float: right;border-left: 1px solid #CCCCCC;padding: 0;text-align: center;}
+.busRes .inputGroup a{font-size: 16px;font-family: "microsoft yahei";color: #999;background: url(../img/radio.png) no-repeat left center;padding-left: 25px;}
+
+.busRes .busContent p{margin-left: 120px;}
+.busRes .busContent button{float: right;border: none;margin-top: 13px;cursor: pointer;outline: none;background: none;}
+.busRes a.RegBtn{width:100px;height:50px;display:block;margin: 0 auto;font-size: 16px;font-family: "microsoft yahei";color: #FFFFFF;background: #D20C1C;text-align: center;line-height: 50px;}
+.busRes .telReg{display: none;}
+
+
+@media only screen and (max-width: 1100px) {
+	.busRes{width: 80%;margin: 0 auto;}
+}
+@media only screen and (max-width: 960px) {
+	.busRes{width: 100%;}
+}

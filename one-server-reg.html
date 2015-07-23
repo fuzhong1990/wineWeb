@@ -1,0 +1,158 @@
+<!Doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>递九 - 加入我们</title>
+<meta name="keywords" content=" " />
+<meta name="description" content="">
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<link href="css/common.css" type="text/css" rel="stylesheet" />
+<link rel="stylesheet" href="css/bus-register.css" />
+</head>
+<body>
+<!--头部开始 Start-->
+<div id="head">
+	<div class="headBox">
+		<div class="logo fl"></div>
+		<div class="menu fr">
+			<ul>
+				<li><a href="index.html">首页</a></li>
+				<li class="drop-menu active">
+					<a href="javascript:void(0)">服务中心</a>
+					<div>
+						<a href="one-server-reg.html">一公里服务商</a>
+						<a href="city-server-reg.html">城市服务商</a>
+						<a href="bus-register.html">业务员</a>
+						<a href="javascript:void(0)">品牌服务商</a>
+					</div>
+				</li>
+				<li><a href="about.html">关于递九</a></li>
+				<li><a href="join-us.html">加入我们</a></li>
+				<li><a href="contact-us.html">联系我们</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<!--//头部开始 End-->
+<!-- 广告条 Start    -->
+<div id="adBnner">
+	<a href="javascript:void(0)"><img src="img/one-server-pic.jpg" /> </a>
+</div>
+<!-- // 广告条 End   -->
+
+
+<!--主题内容  Start-->
+<div id="wrapper">
+	<div class="wrap">
+		<div class="busRes">
+			<div class="tab">
+				<a href="javascript:void(0)"><img src="img/email-regis.png" /></a>
+				<em>|</em>
+				<a href="javascript:void(0)"><img src="img/tel-regis1.png" /></a>
+			</div>
+			<div class="busContent">
+				<div class="emailReg">
+					<div class="inputGroup">
+						<label>邮箱</label>
+						<input type="text" class="bus-input" id="email" value="1111111111@163.com" />
+						<input type="text" class="vilidate" id="vilidate" value="输入验证码" />
+					</div>
+					<div class="inputGroup">
+						<label>输入密码</label>
+						<input type="password" class="bus-input" id="busPwd" value="111111111" />
+					</div>
+					<div class="inputGroup">
+						<label>再次输入密码</label>
+						<input type="password" class="bus-input" id="busAgainPwd" value="111111111" />
+					</div>
+					<div class="inputGroup">
+						<label>营业执照</label>
+						<!--<input type="text" class="bus-input" id="shopCard" value="" />-->
+						<button><img src="img/upload-btn.png" /></button>
+					</div>
+					<p class="shopcard">附件1，照片1</p>
+					<div class="inputGroup">
+						<label>法人身份证号码</label>
+						<!--<input type="text" class="bus-input" id="idCard" value="" />-->
+						<button><img src="img/upload-btn.png" /></button>
+						<!--<input type="file" class="fr" >-->
+					</div>
+					<p class="card">附件1，照片1</p>
+					<div class="inputGroup">
+						<label>银行账户</label>
+						<input type="text" class="bus-input" id="bankCard"/>
+					</div>
+					<div class="inputGroup">
+						<label>诚意金金额</label>
+						<input type="text" class="bus-input" id="idCard" value="￥5000.00" disabled="disabled" />
+					</div>
+					<a href="jiavascript:void(0)" class="RegBtn" id="emailBtn">确认注册</a>
+				</div>
+				<div class="telReg">
+					<div class="inputGroup">
+						<label>电话</label>
+						<input type="text" class="bus-input" id="tel" value="18724561234" />
+						<input type="text" class="vilidate" id="vilidateTel" value="输入验证码" />
+					</div>
+					<div class="inputGroup">
+						<label>输入密码</label>
+						<input type="password" class="bus-input" id="busPwdtel" value="111111111" />
+					</div>
+					<div class="inputGroup">
+						<label>再次输入密码</label>
+						<input type="password" class="bus-input" id="busAgainPwdtel" value="111111111" />
+					</div>
+					<div class="inputGroup">
+						<label>营业执照</label>
+						<!--<input type="text" class="bus-input" id="shopCardtel" value="" />-->
+						<button><img src="img/upload-btn.png" /></button>
+					</div>
+					<p class="shopcard">附件1，照片1</p>
+					<div class="inputGroup">
+						<label>身份证号码</label>
+						<!--<input type="text" class="bus-input" id="idCardtel" value="" />-->
+						<button><img src="img/upload-btn.png" /></button>
+						<!--<input type="file" class="fr" >-->
+					</div>
+					<p class="card">附件1，照片1</p>
+					<div class="inputGroup">
+						<label>银行账户</label>
+						<input type="text" class="bus-input" id="bankCardtel" value="111111111" />
+					</div>
+					<div class="inputGroup">
+						<label>诚意金金额</label>
+						<input type="text" class="bus-input" id="idCardTel" value="￥5000.00" disabled="disabled" />
+					</div>
+					<a href="jiavascript:void(0)" class="RegBtn" id="telBtn">确认注册</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- //主题内容  End-->
+<div id="footer">
+	©版权所有:递九商贸股份有限公司 备案号:陇ICP备14001675号-1
+</div>
+<script type="text/javascript" src="js/jquery-1.9.1.js" ></script>
+<script>
+$('.tab a').each(function(index){
+	$(this).click(function(){
+		$('.tab a').eq(0).find("img").attr("src",'img/email-regis1.png');
+		$('.tab a').eq(1).find("img").attr("src",'img/tel-regis1.png');
+		$('.busContent .emailReg').hide();
+		$('.busContent .telReg').hide();
+		if(index==0){
+			$('.tab a').eq(0).find("img").attr("src",'img/email-regis.png');
+			$('.busContent .emailReg').show();
+		}
+		if(index==1){
+			$('.tab a').eq(1).find("img").attr("src",'img/tel-regis.png');
+			$('.busContent .telReg').show();
+		}
+	})
+})
+</script>
+<script type="text/javascript" src="js/one-server/email-reg.js" ></script>
+<script type="text/javascript" src="js/one-server/tel-reg.js" ></script>
+</body>
+</html>
